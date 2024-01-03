@@ -8,7 +8,8 @@ int main( int argc, char *argv[])
     const int screenWidth = 800;
     const int screenHeight = 450;
 
-    InitWindow(screenWidth, screenHeight, "raylib [core] example - basic window");
+
+    InitWindow(screenWidth, screenHeight, "ordine-pico");
 
     SetTargetFPS(60);               // Set our game to run at 60 frames-per-second
     //--------------------------------------------------------------------------------------
@@ -25,7 +26,7 @@ int main( int argc, char *argv[])
         //----------------------------------------------------------------------------------
         BeginDrawing();
 
-            ClearBackground(RAYWHITE);
+            ClearBackground(DARKGRAY);
 
             DrawText("Congrats! You created your first window!", 190, 200, 20, LIGHTGRAY);
 
